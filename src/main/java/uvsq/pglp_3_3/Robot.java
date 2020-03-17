@@ -1,10 +1,14 @@
 package uvsq.pglp_3_3;
 
-public class Robot implements isOrientable {
-
+public class Robot {
+	int Position;
+	int orientation;
+	
 	public void tourne() {
 		// TODO Auto-generated method stub
 		
 	}
+
+	
 
 }
