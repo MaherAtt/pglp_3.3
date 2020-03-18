@@ -16,6 +16,7 @@ public class App
         
         for(int i=0;i<robots.size();i++)
         {
+        	
         	robots.get(i).avance();
         }
         

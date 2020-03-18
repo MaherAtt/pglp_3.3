@@ -7,7 +7,7 @@ public abstract class Robot {
 	
 	public void tourne() {
 		// TODO Auto-generated method stub
-		orientation= orientation++%4;
+		orientation= (orientation+1)%4;
 	}
 
 	
