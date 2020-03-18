@@ -17,6 +17,10 @@ public class TestRobot {
 			RobotStatique rb=new RobotStatique(1,5);
 			assert(rb.orientation==1 && rb.Position==5);		
 	}
-	
+	@Test
+	public void testConstructeurDynamiqueOrient() {
+			RobotDynamique rb=new RobotDynamique(5,5);
+			assert(rb.orientation==1 && rb.Position==5);		
+	}
 
 }
