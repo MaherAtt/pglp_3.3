@@ -40,4 +40,11 @@ public class TestRobot {
 			rb.tourne();
 			assert(rb.orientation==2 && rb.Position==5);		
 	}
+	@Test
+	public void testTourneStatique() {
+			RobotStatique rb=new RobotStatique(1,5);
+			rb.tourne();
+			assert(rb.orientation==2 && rb.Position==5);		
+	}
+	
 }
