@@ -27,5 +27,17 @@ public class TestRobot {
 			RobotDynamique rb=new RobotDynamique(6,5);
 			assert(rb.orientation==2 && rb.Position==5);		
 	}
-
+	
+	@Test
+	public void testAvance() {
+			RobotDynamique rb=new RobotDynamique(1,5);
+			rb.avance();
+			assert(rb.orientation==1 && rb.Position==6);		
+	}
+	@Test
+	public void testTourne() {
+			RobotDynamique rb=new RobotDynamique(1,5);
+			rb.tourne();
+			assert(rb.orientation==2 && rb.Position==5);		
+	}
 }
